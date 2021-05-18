@@ -28,6 +28,7 @@ sap.ui.define([
 		formatter: formatter,
 
 		onInit: function () {
+            //Check warehouse and workstation from URL
 			this.checkWhNumberAndWorkstation();
 
 			// apply compact density if touch is not supported, the standard cozy design otherwise
